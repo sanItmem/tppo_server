@@ -2,10 +2,10 @@ smatr_device предназначен для управления свдигом
 
 Сначала создайте XML-файл с именем «smart_device.xml» в том же каталоге, что и файлы серверного и клиентского приложений, в следующем формате:
 
-<smart_device>
-<shift>0</shift>
-<light>0</light>
-<brightness>0</brightness>
+<smart_device><p>
+&lt;shift>0</shift&gt;<p>
+&lt;light>0</light&gt;<p>
+&lt;brightness>0</brightness&gt;<p>
 </smart_device>
 
 В нем будет храниться текущий статус устройства, и он имеет следующие параметры:
